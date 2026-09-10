@@ -1,31 +1,32 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+nav {
+    background-color: darkblue;
+    padding: 10px;
 }
 
-header,
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
 }
 
 main {
     max-width: 840px;
 }
 
-h1 {
-    margin: 10px;
-    text-align: left;
-}
-
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 0;
 }
 
 aside {
@@ -41,10 +42,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-p {
-    padding: 0;
 }
 
 footer {

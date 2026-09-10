@@ -9,17 +9,15 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
 }
 
 main {
     max-width: 840px;
-    margin: 0 auto;
 }
 
 h1 {
     margin: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 main img {
@@ -28,8 +26,6 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: left;
-    margin-right: 15px;
 }
 
 aside {

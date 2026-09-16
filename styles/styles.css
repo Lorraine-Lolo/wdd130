@@ -10,22 +10,23 @@ body {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: steelblue;
     padding: 10px;
 }
 
 nav a {
     color: white;
+    padding: 10px;
     display: block;
-    padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: steelblue;
+    padding: 5rem;
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 main img {

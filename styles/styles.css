@@ -57,7 +57,7 @@ aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
-    color: #eee;
+    color: rgb(0, 0, 0);
 }
 
 aside img {

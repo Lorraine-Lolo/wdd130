@@ -90,6 +90,17 @@ title {
 }
 
 footer {
-    background-color: var(--secondary-color);
-    color: var(--accent2-color);
+    background-color: #023047;
+    color: #eff;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer p {
+    color: #eff;
 }

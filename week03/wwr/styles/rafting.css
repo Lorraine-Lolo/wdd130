@@ -84,6 +84,11 @@ title {
     text-decoration: none;
 }
 
+.socialmedia img {
+    width: 30px;
+    height: auto;
+}
+
 footer {
     background-color: var(--secondary-color);
     color: var(--accent2-color);

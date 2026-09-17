@@ -79,3 +79,12 @@ title {
     float: right;
     width: 125px;
 }
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}

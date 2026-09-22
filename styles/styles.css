@@ -4,29 +4,55 @@
     box-sizing: border-box;
 }
 
-body {
-    font-size: 16px;
-    font-family: Roboto, Arial, sans-serif;
+a {
+    color: rgb(3, 3, 109);
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: #042849;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
-    padding: 10px;
     display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 h1 {
     color: steelblue;
-    padding: 5rem;
+    border-bottom: 1px solid #222;
+    padding-bottom: 0.5rem;
 }
 
-main {
-    max-width: 640px;
+aside {
+    max-width: 30rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 main img {
@@ -36,28 +62,22 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
 }
 
 p {
-    padding: 0;
+    padding: 1rem;
 }
 
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+ul {
+    list-style: none;
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-    position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 15px;
+    left: 100px;
     color: rgb(0, 0, 0);
 }
 
@@ -67,18 +87,26 @@ aside img {
 }
 
 footer {
+    background-color: #3e3e3e;
+    color: #fff;
     margin-top: 15px;
-    border-top: 1px solid #000;
+    padding: 1rem;
     text-align: center;
 }
 
 /* Class Selectors */
 .box {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #ddd;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 1);
     padding: 1rem;
-    background-color: #eee;
     color: #000;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
 }
 
 .indent {

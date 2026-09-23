@@ -128,9 +128,16 @@ footer {
     text-align: center;
 }
 
+.history img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    justify-self: center;
+}
+
 .adventures {
     display: grid;
-    grid-template-columns: 1/6;
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     justify-items: center;
 }

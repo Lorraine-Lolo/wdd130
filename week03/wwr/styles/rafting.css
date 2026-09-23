@@ -143,3 +143,8 @@ footer {
     flex: 1;
     text-align: center;
 }
+
+.adventures figure img {
+    width: 100%;
+    max-width: 150px;
+}

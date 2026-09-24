@@ -89,13 +89,14 @@ h2 {
     bottom: 30px;
     left: 50px;
     right: 50px;
-    background-color: rgba(244, 162, 97, 0.9);
+    background-color: rgb(38 70 83);
     padding: 15px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     gap: 20px;
     color: white;
+    float: right;
 }
 
 .hero article img {
@@ -104,11 +105,14 @@ h2 {
     border: 1px solid white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-left: 10px;
+    float: right;
 }
 
 .hero article p {
     font-size: 14px;
     line-height: 1.5;
+    background-color: rgb(5 90 5);
+    color: #ffffff;
 }
 
 footer {

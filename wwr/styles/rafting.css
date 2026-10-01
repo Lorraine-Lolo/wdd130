@@ -276,3 +276,9 @@ iframe {
     margin-bottom: 50px;
     display: block;
 }
+
+.employees img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}

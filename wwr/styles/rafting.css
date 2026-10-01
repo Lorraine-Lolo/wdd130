@@ -218,8 +218,12 @@ figure {
 }
 
 form {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #eaf3e8;
+    padding: 25px;
+    border: 1px solid #2c5f2d;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
 .contact-grid {

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main class="box">
+        <h1>✅ Basic HTML and CSS Quiz</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label for="q1"><span class="q-number">1.</span> What does the acronmy HTML stand
+                    for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q2"><span class="q-number">2.</span> Briefly explain the difference
+                    between div and span?</label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q3"><span class="q-number">3.</span>Which property is used to change the
+                    background color?</label>
+                <select id="q3" name="q3">
+                    <option value="selected disabled">Choose One ...</option>
+                    <option value="a">color</option>
+                    <option value="b">background-color</option>
+                    <option value="c">bgcolor</option>
+                    <option value="d">background</option>
+                </select>
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q4"><span class="q-number">4.</span> How many heading tags does HTML
+                    have (h1 to h6)?</label>
+                <code>margin: 10px 5px 15px;</code>
+                <input type="number" id="q4" name="q4">
+            </div>
+
+            <button type="submit">Submit Quiz for Grading</button>
+        </form>
+    </main>
+</body>
+
+</html>

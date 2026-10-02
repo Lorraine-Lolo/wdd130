@@ -192,17 +192,14 @@ figure {
 }
 
 .employees {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
     width: 100%;
     margin-top: 30px;
+    text-align: center;
 }
 
 .employees h2 {
+    text-align: center;
     width: 100%;
-    flex-basis: 100%;
 }
 
 .employees figure {
@@ -329,4 +326,10 @@ label[for="newsleter"] input {
 label[for="newsletter"] input {
     width: auto;
     margin-right: 8px;
+}
+
+.employees cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }

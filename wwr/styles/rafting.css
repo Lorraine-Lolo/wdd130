@@ -103,6 +103,7 @@ h2 {
     line-height: 1.5;
     color: var(--accent1-color);
     margin: 0;
+    font-weight: bold;
 }
 
 footer {
